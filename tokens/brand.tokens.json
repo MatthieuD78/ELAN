@@ -1,0 +1,48 @@
+{
+  "brand": "ÉLAN",
+  "tagline": "La transformation, accompagnée.",
+  "differentiator": "ebook + app IA d'accompagnement",
+  "principes": {
+    "3_couleurs": true,
+    "hover_everywhere": "hover:scale-105 transition-all duration-300",
+    "radii": ["rounded-xl", "rounded-2xl"],
+    "spacing": ["py-20", "px-8", "gap-8"]
+  },
+  "socle": {
+    "font_display": "Playfair Display",
+    "font_body": "Inter",
+    "font_body_alt": "Lato",
+    "logo_family": "icone embleme + nom ELAN + declinaison produit"
+  },
+  "produits": {
+    "guide-de-la-reussite": {
+      "type": "livre",
+      "contexte": "8 lois de la reussite, 1 chemin",
+      "code_couleur": { "fond": "#0f172a", "accent_1": "#FBBF24", "accent_2": "#10B981" },
+      "font_display": "Playfair Display",
+      "font_body": "Lato",
+      "tailwind": {
+        "fond": "slate-950",
+        "accent_1": "amber-400",
+        "accent_2": "emerald-400",
+        "texte": "slate-100",
+        "texte_mute": "slate-400"
+      }
+    },
+    "cetogene": {
+      "type": "app",
+      "contexte": "coach IA keto premium",
+      "code_couleur": { "fond": "#111816", "accent_1": "#8FBC8F", "accent_2": "#D4AF37" },
+      "font_display": "Playfair Display",
+      "font_body": "Inter",
+      "tailwind": {
+        "fond": "#111816",
+        "accent_1": "#8FBC8F",
+        "accent_2": "#D4AF37",
+        "texte": "#F5F5DC",
+        "texte_mute": "rgba(245,245,220,0.6)"
+      }
+    }
+  },
+  "regle_or": "Recuperer la vraie palette depuis les assets existants (SVG, styles.css, tailwind.config, covers) avant d'inventer une couleur."
+}

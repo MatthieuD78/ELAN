@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="320" height="320" viewBox="0 0 320 320">
+  <rect width="320" height="320" rx="72" fill="#0f172a"/>
+  <!-- Abstraction géométrique des bois de cervidé : 3 pointes V inversés + tronc -->
+  <g stroke="#FBBF24" stroke-width="20" stroke-linecap="round" fill="none">
+    <!-- Tronc -->
+    <line x1="160" y1="235" x2="160" y2="150"/>
+    <!-- Bois gauche et droit -->
+    <path d="M160 175 L105 110"/>
+    <path d="M160 175 L215 110"/>
+    <!-- Pointe centrale -->
+    <path d="M160 150 L160 85"/>
+  </g>
+  <!-- Pointes émeraude -->
+  <g fill="#10B981">
+    <circle cx="105" cy="108" r="10"/>
+    <circle cx="215" cy="108" r="10"/>
+  </g>
+  <g fill="#FBBF24">
+    <circle cx="160" cy="82" r="11"/>
+  </g>
+</svg>

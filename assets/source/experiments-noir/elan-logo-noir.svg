@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="620" viewBox="0 0 520 620" font-family="'Playfair Display', Georgia, serif">
+  <!-- ============ LOGO ÉLAN — VERSION NOIRE (monochrome inline) ============ -->
+  <!-- Ramure de cervidé en trait noir épais, plein soigné -->
+
+  <g stroke="#0f172a" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Tronc central massif -->
+    <line x1="260" y1="470" x2="260" y2="320" stroke-width="24"/>
+    <path d="M238 470 C246 440 256 400 260 320"/>
+
+    <!-- Crosse maîtresse GAUCHE -->
+    <path d="M260 360 C240 338 210 314 182 286"/>
+    <path d="M182 286 C178 258 182 234 188 208"/>
+    <!-- Surandouiller gauche -->
+    <path d="M208 306 C200 286 196 264 194 242"/>
+    <!-- Andouiller de gaze gauche -->
+    <path d="M234 318 C228 300 224 280 222 258"/>
+
+    <!-- Crosse maîtresse DROITE (miroir) -->
+    <path d="M260 360 C280 338 310 314 338 286"/>
+    <path d="M338 286 C342 258 338 234 332 208"/>
+    <!-- Surandouiller droit -->
+    <path d="M312 306 C320 286 324 264 326 242"/>
+    <!-- Andouiller de gaze droit -->
+    <path d="M286 318 C292 300 296 280 298 258"/>
+
+    <!-- Sommet central -->
+    <line x1="260" y1="320" x2="260" y2="188" stroke-width="18"/>
+  </g>
+
+  <!-- Pointes bourgeons -->
+  <g fill="#0f172a">
+    <circle cx="188" cy="204" r="11"/>
+    <circle cx="194" cy="240" r="8"/>
+    <circle cx="222" cy="256" r="7"/>
+    <circle cx="332" cy="204" r="11"/>
+    <circle cx="326" cy="240" r="8"/>
+    <circle cx="298" cy="256" r="7"/>
+    <circle cx="260" cy="180" r="13"/>
+  </g>
+
+  <!-- ============ Nom ============= -->
+  <text x="260" y="530" text-anchor="middle" font-size="88" font-weight="700" letter-spacing="10" fill="#0f172a">ÉLAN</text>
+  <text x="260" y="576" text-anchor="middle" font-size="20" letter-spacing="12" fill="#0f172a" opacity="0.7">LA TRANSFORMATION</text>
+</svg>

@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640" font-family="'Playfair Display', Georgia, serif">
+  <defs>
+    <linearGradient id="trunkGrad" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0" stop-color="#F59E0B"/>
+      <stop offset="0.55" stop-color="#FBBF24"/>
+      <stop offset="1" stop-color="#10B981"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Fond du badge squircle -->
+  <rect x="50" y="50" width="540" height="540" rx="120" fill="#0f172a"/>
+
+  <!-- ============ EMBLÈME : ramure de cervidé (bois), symétrique ============ -->
+  <g stroke="url(#trunkGrad)" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Tronc central massif -->
+    <line x1="320" y1="478" x2="320" y2="330" stroke-width="22"/>
+    <path d="M300 478 C306 448 312 410 320 330"/>
+
+    <!-- Crosse maîtresse GAUCHE (le grand merrain) -->
+    <path d="M320 372 C300 350 268 326 238 296"/>
+    <path d="M238 296 C236 268 240 246 246 220"/>
+    <!-- Surandouiller gauche -->
+    <path d="M262 316 C254 296 250 274 248 252"/>
+    <!-- Andouiller de gaze gauche -->
+    <path d="M288 330 C282 312 278 292 276 270"/>
+
+    <!-- Crosse maîtresse DROITE (miroir) -->
+    <path d="M320 372 C340 350 372 326 402 296"/>
+    <path d="M402 296 C404 268 400 246 394 220"/>
+    <!-- Surandouiller droit -->
+    <path d="M378 316 C386 296 390 274 392 252"/>
+    <!-- Andouiller de gaze droit -->
+    <path d="M352 330 C358 312 362 292 364 270"/>
+  </g>
+
+  <!-- Sommet central (la plus haute pousse) -->
+  <g stroke="url(#trunkGrad)" fill="none" stroke-width="18" stroke-linecap="round">
+    <line x1="320" y1="330" x2="320" y2="196"/>
+  </g>
+
+  <!-- Pointes / bourgeons émeraude = croissance -->
+  <g fill="#10B981">
+    <circle cx="246" cy="216" r="11"/>
+    <circle cx="248" cy="250" r="8"/>
+    <circle cx="276" cy="268" r="7"/>
+    <circle cx="394" cy="216" r="11"/>
+    <circle cx="392" cy="250" r="8"/>
+    <circle cx="364" cy="268" r="7"/>
+  </g>
+  <g fill="#FBBF24">
+    <circle cx="320" cy="186" r="13"/>
+  </g>
+
+  <!-- ============ Nom ============= -->
+  <text x="320" y="536" text-anchor="middle" font-size="94" font-weight="700" letter-spacing="10" fill="#F8FAFC">ÉLAN</text>
+  <text x="320" y="584" text-anchor="middle" font-size="21" letter-spacing="12" fill="#FBBF24" opacity="0.92">LA TRANSFORMATION</text>
+  <text x="320" y="612" text-anchor="middle" font-size="15" letter-spacing="8" fill="#94A3B8" opacity="0.8">Accompagnée</text>
+</svg>

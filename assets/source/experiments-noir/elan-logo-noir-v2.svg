@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="620" viewBox="0 0 520 620" font-family="'Playfair Display', Georgia, serif">
+  <!-- ============================================================
+       LOGO ÉLAN — VERSION NOIRE RAFFINÉE  (v2)
+       Direction : bois de cervidé monochrome noir, gravure intemporelle.
+       Ramure dans le tiers supérieur, « ÉLAN » centré en dessous.
+       Symétrie parfaite (moitié gauche + miroir), traits ronds.
+       ============================================================ -->
+
+  <defs>
+    <!-- Moitié gauche de la ramure (miroirée pour la droite) -->
+    <g id="antler-left">
+      <!-- Tige basse / andouiller de gaze (légèrement descendante, balayée) -->
+      <path d="M255 292 C 236 302 212 312 187 317" stroke-width="8"/>
+      <!-- Branche haute externe (crosse maîtresse, courbe ample) -->
+      <path d="M255 250 C 242 222 223 197 207 176" stroke-width="8"/>
+      <!-- Surandouiller (branche intermédiaire, plus fine) -->
+      <path d="M255 212 C 249 188 245 164 243 148" stroke-width="6.5"/>
+      <!-- Bourgeon de couronne latéral (court) -->
+      <path d="M258 178 C 252 158 249 140 248 126" stroke-width="6"/>
+    </g>
+  </defs>
+
+  <g fill="none" stroke="#0f172a" stroke-linecap="round" stroke-linejoin="round">
+    <!-- ===== Tronc central (profil effilé, continu) ===== -->
+    <path fill="#0f172a" stroke="none" d="M248 314
+         C 248 258 253 205 257 183
+         C 259 177 261 177 263 183
+         C 267 205 272 258 272 314
+         C 272 320 248 320 248 314 Z"/>
+
+    <!-- Branche centrale supérieure (pointe du sommet) -->
+    <path d="M260 183 C 260 152 260 124 260 100" stroke-width="9"/>
+
+    <!-- Moitié gauche -->
+    <use href="#antler-left"/>
+    <!-- Moitié droite (miroir parfait autour de x=260) -->
+    <use href="#antler-left" transform="translate(520,0) scale(-1,1)"/>
+  </g>
+
+  <!-- ===== Nom <ÉLAN> — Playfair Display ===== -->
+  <text x="260" y="500" text-anchor="middle" font-size="96" font-weight="700"
+        letter-spacing="14" fill="#0f172a">ÉLAN</text>
+
+  <!-- ===== Tagline ===== -->
+  <text x="260" y="551" text-anchor="middle" font-size="21" font-weight="500"
+        letter-spacing="16" fill="#0f172a" opacity="0.72">LA TRANSFORMATION</text>
+</svg>

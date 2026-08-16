@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="640" viewBox="0 0 520 640" font-family="'Playfair Display', Georgia, serif">
+  <!-- ============================================================
+       LOGO ÉLAN — VERSION NOIRE v3 (tiges + boules, bois de cerf)
+       Conserve la ramure symétrique et épurée, et restaure les
+       BOUles/bourgeons bien attachés aux extrémités des tiges.
+       Monochrome noir #0f172a sur fond transparent.
+       ============================================================ -->
+
+  <defs>
+    <!-- Moitié gauche de la ramure (miroirée pour la droite) -->
+    <g id="antler-left">
+      <!-- Tige basse / andouiller de gaze -->
+      <path d="M256 300 C 236 310 212 318 190 322" stroke-width="8"/>
+      <!-- Crosse maîtresse (courbe ample, haute) -->
+      <path d="M256 256 C 244 228 226 202 210 181" stroke-width="8"/>
+      <!-- Surandouiller (branche intermédiaire) -->
+      <path d="M256 216 C 250 192 246 168 244 152" stroke-width="6.5"/>
+      <!-- Bourgeon de couronne latéral (court) -->
+      <path d="M258 180 C 253 160 250 142 249 128" stroke-width="6"/>
+    </g>
+  </defs>
+
+  <!-- ===== Tiges ===== -->
+  <g fill="none" stroke="#0f172a" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Tronc central effilé -->
+    <path fill="#0f172a" stroke="none" d="M248 322
+         C 248 264 253 208 257 186
+         C 259 180 261 180 263 186
+         C 267 208 272 264 272 322
+         C 272 328 248 328 248 322 Z"/>
+    <!-- Sommet central -->
+    <path d="M260 186 C 260 155 260 126 260 102" stroke-width="9"/>
+    <!-- Moitié gauche -->
+    <use href="#antler-left"/>
+    <!-- Moitié droite (miroir autour de x=260) -->
+    <use href="#antler-left" transform="translate(520,0) scale(-1,1)"/>
+  </g>
+
+  <!-- ===== Boules / bourgeons à chaque extrémité ===== -->
+  <g fill="#0f172a">
+    <!-- Sommet central -->
+    <circle cx="260" cy="88" r="12"/>
+    <!-- Extrémités gauche -->
+    <circle cx="190" cy="322" r="7.5"/>
+    <circle cx="210" cy="181" r="7.5"/>
+    <circle cx="244" cy="152" r="6.5"/>
+    <circle cx="249" cy="128" r="6"/>
+    <!-- Extrémités droite (miroir x=260) -->
+    <circle cx="330" cy="322" r="7.5"/>
+    <circle cx="310" cy="181" r="7.5"/>
+    <circle cx="276" cy="152" r="6.5"/>
+    <circle cx="271" cy="128" r="6"/>
+  </g>
+
+  <!-- ===== Nom <ÉLAN> ===== -->
+  <text x="260" y="510" text-anchor="middle" font-size="96" font-weight="700"
+        letter-spacing="14" fill="#0f172a">ÉLAN</text>
+
+  <!-- ===== Tagline ===== -->
+  <text x="260" y="561" text-anchor="middle" font-size="21" font-weight="500"
+        letter-spacing="16" fill="#0f172a" opacity="0.72">LA TRANSFORMATION</text>
+</svg>

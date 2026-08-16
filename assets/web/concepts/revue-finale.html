@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ELAN — Logo final (Concept D)</title>
+<style>
+body{font-family:Inter,system-ui,sans-serif;background:#0f172a;color:#f1f5f9;margin:0;padding:30px}
+h1{text-align:center;font-family:'Playfair Display',Georgia,serif;font-weight:700;color:#fbbf24;letter-spacing:3px;margin-bottom:4px}
+.sub{text-align:center;color:#94a3b8;letter-spacing:4px;font-size:12px;text-transform:uppercase;margin-bottom:30px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:18px;max-width:1100px;margin:0 auto}
+.card{background:#1e293b;border-radius:14px;padding:14px;text-align:center;border:1px solid #334155}
+.card img{max-width:100%;border-radius:8px;display:block;margin:0 auto}
+.card.dark img{background:#0f172a}
+.card.wht img{background:#fff}
+.card label{display:block;margin-top:8px;font-size:12px;color:#cbd5e1;letter-spacing:1px}
+.tag{color:#fbbf24;font-weight:700}
+.gap2{grid-column:span 2}
+</style>
+</head>
+<body>
+<h1>ELAN</h1>
+<div class="sub">La transformation, accompagnee — Logo final (Concept D)</div>
+<div class="grid">
+  <div class="card wht"><img src="D-mark.png"><label><span class="tag">Monochrome</span> aplat slate sur blanc</label></div>
+  <div class="card dark"><img src="D-inverse.png"><label><span class="tag">Inverse</span> blanc sur fond slate</label></div>
+  <div class="card wht"><img src="D-ambre.png"><label><span class="tag">Ambre</span> disque + fleche ambre</label></div>
+  <div class="card wht"><img src="D-emeraude.png"><label><span class="tag">Emeraude</span> fleche croissance</label></div>
+  <div class="card wht"><img src="D-duo.png"><label><span class="tag">Duo</span> degrade ambre->emeraude</label></div>
+  <div class="card dark"><img src="D-favicon-32.png"><label><span class="tag">Favicon 32px</span></label></div>
+  <div class="card gap2 dark"><img src="D-lockup-h.png" style="background:#0f172a"><label><span class="tag">Lockup horizontal</span> marque + ELAN (Playfair)</label></div>
+  <div class="card gap2 dark"><img src="D-lockup-compact.png" style="background:#0f172a"><label><span class="tag">Lockup compact</span> marque + nom seul</label></div>
+</div>
+<div style="max-width:700px;margin:26px auto;background:#1e293b;border-radius:14px;padding:18px 22px;border:1px solid #334155;font-size:13px;line-height:1.6">
+<p><b>Bilan final :</b></p>
+<ul>
+<li>8 sources SVG dans <code>assets/source/</code></li>
+<li>12 PNG web dans <code>assets/web/concepts/</code></li>
+<li>Favicons 16/32/64 px — robustesse prouvée</li>
+<li>2 lockups (compact + horizontal avec sous-titre)</li>
+<li>Palette tokens réels : slate <code>#0f172a</code>, ambre <code>#FBBF24</code>, émeraude <code>#10B981</code></li>
+</ul>
+</div>
+</body>
+</html>

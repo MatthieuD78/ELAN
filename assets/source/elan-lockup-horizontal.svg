@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="280" viewBox="0 0 800 280" font-family="'Playfair Display', Georgia, serif">
+
+  <!-- ===== VERSION HORIZONTALE : icône à gauche, ÉLAN à droite ===== -->
+  <g transform="translate(20,20)">
+    <!-- Petite icône -->
+    <g stroke="#FBBF24" stroke-width="14" stroke-linecap="round" fill="none">
+      <line x1="80" y1="190" x2="80" y2="120"/>
+      <path d="M80 150 L40 90"/>
+      <path d="M80 150 L120 90"/>
+      <path d="M80 120 L80 70"/>
+    </g>
+    <g fill="#10B981">
+      <circle cx="40" cy="88" r="8"/>
+      <circle cx="120" cy="88" r="8"/>
+    </g>
+    <g fill="#FBBF24">
+      <circle cx="80" cy="67" r="9"/>
+    </g>
+    <!-- Texte horizontal -->
+    <g transform="translate(150,40)">
+      <text y="95" font-family="'Playfair Display', Georgia, serif"
+            font-size="72" font-weight="700" letter-spacing="6" fill="#0f172a">ÉLAN</text>
+      <text y="130" font-family="Inter, 'Segoe UI', sans-serif"
+            font-size="15" letter-spacing="6" fill="#FBBF24">LA TRANSFORMATION</text>
+    </g>
+  </g>
+
+</svg>

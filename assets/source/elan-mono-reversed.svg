@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="320" viewBox="0 0 640 320">
+
+  <!-- ===== MONOCHROME : noir sur blanc, teste la silhouette ===== -->
+  <text x="20" y="24" font-family="Arial" font-size="13" fill="#888">Monochrome — 1 couleur</text>
+  <g transform="translate(60,30)" stroke="#000" stroke-width="16" stroke-linecap="round" fill="none">
+    <line x1="80" y1="200" x2="80" y2="120"/>
+    <path d="M80 150 L35 85"/>
+    <path d="M80 150 L125 85"/>
+    <path d="M80 120 L80 62"/>
+  </g>
+
+  <!-- ===== REVERSED : blanc sur ambre ===== -->
+  <g transform="translate(320,0)">
+    <text x="20" y="24" font-family="Arial" font-size="13" fill="#888">Reversed — blanc sur ambre</text>
+    <rect x="30" y="35" width="200" height="210" rx="20" fill="#FBBF24"/>
+    <g transform="translate(50,50)" stroke="#0f172a" stroke-width="16" stroke-linecap="round" fill="none">
+      <line x1="80" y1="170" x2="80" y2="90"/>
+      <path d="M80 120 L35 55"/>
+      <path d="M80 120 L125 55"/>
+      <path d="M80 90 L80 32"/>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="640" viewBox="0 0 640 640" font-family="'Playfair Display', Georgia, serif">
+<defs>
+<linearGradient id="trunkGrad" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#FBBF24"/><stop offset="1" stop-color="#F59E0B"/></linearGradient>
+</defs>
+<rect x="50" y="50" width="540" height="540" rx="120" fill="#0f172a"/>
+<polygon points="290.0,505.0 350.0,505.0 300.0,430.0 306.0,408.0 334.0,408.0 340.0,430.0" fill="#FBBF24" stroke="none"/>
+<circle cx="320" cy="516" r="15" fill="#FBBF24"/>
+<g><polygon points="308.0,460.0 308.0,269.0 274.0,269.0 320.0,205.0 366.0,269.0 332.0,269.0 332.0,460.0" fill="#FBBF24" stroke="none"/><polygon points="292.2,461.9 204.9,337.3 177.0,356.8 178.0,278.0 252.4,304.0 224.5,323.5 311.8,448.1" fill="#FBBF24" stroke="none"/><polygon points="328.2,448.1 415.5,323.5 387.6,304.0 462.0,278.0 463.0,356.8 435.1,337.3 347.8,461.9" fill="#FBBF24" stroke="none"/><polygon points="281.8,476.8 246.8,444.3 223.7,469.2 208.0,392.0 286.2,401.8 263.1,426.7 298.2,459.2" fill="#FBBF24" stroke="none"/><polygon points="341.8,459.2 376.9,426.7 353.8,401.8 432.0,392.0 416.3,469.2 393.2,444.3 358.2,476.8" fill="#FBBF24" stroke="none"/></g>
+<g><polygon points="274.0,269.0 320.0,205.0 366.0,269.0" fill="#10B981" stroke="none"/><polygon points="177.0,356.8 178.0,278.0 252.4,304.0" fill="#10B981" stroke="none"/><polygon points="387.6,304.0 462.0,278.0 463.0,356.8" fill="#10B981" stroke="none"/><polygon points="223.7,469.2 208.0,392.0 286.2,401.8" fill="#10B981" stroke="none"/><polygon points="353.8,401.8 432.0,392.0 416.3,469.2" fill="#10B981" stroke="none"/></g>
+<text x="320" y="566" text-anchor="middle" font-size="96" font-weight="700" letter-spacing="10" fill="#F8FAFC">ÉLAN</text>
+<text x="320" y="606" text-anchor="middle" font-size="22" letter-spacing="12" fill="#FBBF24" opacity="0.92">LA TRANSFORMATION</text>
+<text x="320" y="630" text-anchor="middle" font-size="15" letter-spacing="8" fill="#94A3B8" opacity="0.8">Accompagnée</text>
+</svg>
